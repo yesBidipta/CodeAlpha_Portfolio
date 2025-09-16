@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bidipta Barua | Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.waves.min.js"></script>
+
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">Bidipta Barua</div>
+      <nav>
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+  <div id="hero-bg"></div>
+  <div class="hero-content">
+    <h1>Hi, I'm <span>Bidipta Barua</span></h1>
+    <h2>Full Stack Developer</h2>
+    <p>I build scalable and efficient applications that seamlessly connect polished UIs with reliable backends.</p>
+    <div class="buttons">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="resume.pdf" class="btn btn-outline" download>Download Resume</a>
+    </div>
+  </div>
+</section>
+
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I am a motivated Full Stack Developer with a strong focus on creating robust, user-friendly, and scalable web applications. My strength lies in connecting visually engaging frontend interfaces with reliable backend systems, ensuring a smooth and intuitive user journey from start to finish.
+
+I take pride in writing clean, modular code and solving problems with efficiency and creativity. Whether it’s building responsive interfaces, designing APIs, or optimizing performance, I enjoy crafting solutions that balance functionality with simplicity.
+
+Outside of development, I constantly explore new tools, frameworks, and best practices in web technology to stay ahead of industry trends. My goal is to deliver impactful digital experiences that not only meet requirements but also leave a lasting impression on users.
+    </div>
+  </section>
+
+
+  <!-- Skills -->
+<section id="skills" class="section">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+
+      <!-- Frontend -->
+      <div class="skill-card">
+        <h3>Frontend Development</h3>
+        <div class="badges">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          <span>Responsive Design</span><span>React</span><span>Bootstrap</span>
+        </div>
+        <div class="progress-bar"><div style="width:90%">90%</div></div>
+      </div>
+
+      <!-- Backend -->
+      <div class="skill-card">
+        <h3>Backend Development</h3>
+        <div class="badges">
+          <span>Flask</span><span>Node.js</span><span>MySQL</span><span>SQLite</span>
+        </div>
+        <div class="progress-bar"><div style="width:85%">85%</div></div>
+      </div>
+
+      <!-- Languages -->
+      <div class="skill-card">
+        <h3>Languages</h3>
+        <div class="badges">
+          <span>Python</span><span>C++</span><span>C</span><span>JavaScript</span>
+        </div>
+        <div class="progress-bar"><div style="width:80%">80%</div></div>
+      </div>
+
+      <!-- Tools -->
+      <div class="skill-card">
+        <h3>Tools & Platforms</h3>
+        <div class="badges">
+          <span>Git</span><span>GitHub</span><span>Vercel</span><span>Firebase</span>
+        </div>
+        <div class="progress-bar"><div style="width:80%">80%</div></div>
+      </div>
+
+      <!-- Extra Info Cards -->
+      <div class="skill-card small">
+        <h3>10+ Technologies</h3>
+      </div>
+
+      <div class="skill-card small">
+        <h3>1+ yrs Experience</h3>
+      </div>
+
+      <div class="skill-card small">
+        <h3>10+ Projects</h3>
+      </div>
+
+      <div class="skill-card small">
+        <h3>100% Commitment</h3>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  
+<!-- Projects -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2>Projects</h2>
+
+    <!-- Filters -->
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="frontend">Frontend</button>
+      <button class="filter-btn" data-filter="backend">Backend</button>
+      <button class="filter-btn" data-filter="fullstack">Fullstack</button>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card frontend">
+        <div class="project-image">
+          <img src="portfoliopage.jpg" alt="Portfolio Website">
+        </div>
+        <div class="project-info">
+          <h3>Portfolio Website</h3>
+          <p>My portfolio is a personal website that showcases my skills, projects, and contact information in a professional and visually appealing layout</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="https://github.com/yourusername/portfolio" target="_blank" class="btn btn-project">View Project →</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card frontend">
+        <div class="project-image">
+          <img src="imagegallery.jpg" alt="Image Gallery">
+        </div>
+        <div class="project-info">
+          <h3>Image Gallery</h3>
+          <p>image gallery is a responsive grid of pictures that adjusts layout automatically and allows users to scroll through neatly organized images.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="https://github.com/yesBidipta/CodeAlpha_ImageGallery" target="_blank" class="btn btn-project">View Project →</a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card frontend">
+        <div class="project-image">
+          <img src="moodbooks.jpg" alt="Moodbooks">
+        </div>
+        <div class="project-info">
+          <h3>MoodBooks-A reader's Community</h3>
+          <p>MoodBooks is an interactive book recommendation platform that lets users explore books by moods or tropes, view movie adaptations, share fan art, and switch between light/dark modes.</p>
+          <div class="tags">
+             <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="https://github.com/yourusername/ecommerce" target="_blank" class="btn btn-project">View Project →</a>
+        </div>
+      </div>
+
+<!-- Project 4 -->
+ <div class="project-card frontend">
+        <div class="project-image">
+          <img src="calculator.jpg" alt="calculator">
+        </div>
+        <div class="project-info">
+          <h3>A calculator</h3>
+          <p>My calculator is a simple web app that performs basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
+          <div class="tags">
+             <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="https://github.com/yesBidipta/CodeAlpha_Build-A-Calculator" target="_blank" class="btn btn-project">View Project →</a>
+        </div>
+      </div>
+
+<!-- Project 5 -->
+ <div class="project-card frontend">
+        <div class="project-image">
+          <img src="elearning.jpg" alt="e-learning">
+        </div>
+        <div class="project-info">
+          <h3>An E learning website</h3>
+          <p>e-learning webpage is a platform-style site that provides online course content with a structured layout for easy navigation.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <a href="https://github.com/yourusername/api-service" target="_blank" class="btn btn-project">View Project →</a>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="container">
+      <h2>FAQ</h2>
+
+      <div class="faq-item">
+        <button class="faq-question">What technologies do you specialize in?</button>
+        <div class="faq-answer">
+          <p>I specialize in Full Stack Development with HTML, CSS, JavaScript, React, Node.js, and MongoDB.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Have you worked on team projects?</button>
+        <div class="faq-answer">
+          <p>Yes, I have worked on multiple team projects, collaborating through GitHub and project management tools.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question">Are you open to work?</button>
+        <div class="faq-answer">
+          <p>Yes! I am actively seeking exciting opportunities where I can contribute and grow.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Bidipta Barua | All rights reserved.</p>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
