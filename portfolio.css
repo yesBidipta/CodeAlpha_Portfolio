@@ -1,4 +1,3 @@
-/* General Reset */
 * {
   margin: 0;
   padding: 0;
@@ -664,10 +663,95 @@ nav ul li a.active {
   padding: 1rem;
 }
 
+/* Fix for Get in Touch section */
+.get-in-touch {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.get-in-touch p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.get-in-touch .btn {
+  display: inline-block;
+  background: #FFC107;
+  color: #111111;
+  padding: 0.8rem 2rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.get-in-touch .btn:hover {
+  background: #CD7F32;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+
 /* Footer */
 footer {
   text-align: center;
-  padding: 1.5rem;
   background: #333333;
   color: #FAFAFA;
+  padding: 2rem 1rem;
+}
+
+footer a {
+  color: #FFC107;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #CD7F32;
+}
+
+.footer-content .social-links {
+  margin: 1rem 0;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.footer-nav {
+  margin: 1rem 0;
+}
+
+.footer-nav a {
+  color: #FAFAFA;
+  margin: 0 10px;
+  font-size: 0.95rem;
+}
+
+.email-note {
+  margin-top: 0.5rem;
+  color: #CCC;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+#backToTop {
+  margin-top: 1rem;
+  cursor: pointer;
 }
