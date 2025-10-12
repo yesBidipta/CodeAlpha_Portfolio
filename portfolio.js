@@ -1,9 +1,8 @@
-
 document.addEventListener("DOMContentLoaded", () => {
   console.log("JS loaded ✅");
 
   // ===== Mobile Navigation Toggle =====
-  // ===== Mobile Navigation Toggle =====
+  
 const nav = document.querySelector("nav ul");
 const menuToggle = document.createElement("button");
 menuToggle.classList.add("menu-toggle");
@@ -116,4 +115,12 @@ VANTA.WAVES({
       }
     });
   });
+
+  // ===== Back to Top Button =====
+const backToTop = document.getElementById("backToTop");
+backToTop.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
+
+});
+
